@@ -43,7 +43,7 @@ module.exports = {
 
 Launch it with `$ ponte -c config.js`.
 
-For a further look of Ponte you can visit [Ponte A](http://www.eclipse.org/ponte/).
+For a further look of Ponte you can visit [Ponte A](http://www.eclipse.org/ponte/) or the [Ponte Project](https://github.com/eclipse/ponte).
 
 
 
