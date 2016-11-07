@@ -1,6 +1,10 @@
 # MTK
 
-## Installation
+## What we need?
+
+Ponte, Mongodb, Freeboard, sample code for IoT device(in this project we'll take MTK Linkit Smart 7688 Duo as an example). Since Mongodb can easily be acquired, only the installation of Ponte and Freeboard will be introduced in this document.
+
+## Installation of Ponte
 
 Ponte is a node.js application, so it needs [node.js](http://nodejs.org)
 to run. The currently recommended version is node 4.3.1, which is the Longtime Support Version. Ponte is tested against versions 0.12, 4.3.1 and 5. *Attention: you should currently not use ponte with node 5.7*
