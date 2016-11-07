@@ -3,9 +3,12 @@ After downloading the freeboard, open the index.html. You can dowanload the json
 Several settings may need to be modified manually since the github version is different from the freeboard.io version.
 
 
+## Steps
+
 First, for every datasources on the upper right corner you should assign it to the JSON type.
 
 Second, for each panes we need to select a proper type for it.
 
 The picture below is an advice:
+
 ![a](https://raw.github.com/DavWa/MTK/master/Freeboard/freeboard.png)
