@@ -1,8 +1,8 @@
 # MTK
 
-## The materials we need
+## The materials We need
 
-Ponte, Mongodb, Freeboard, sample code for IoT device(in this project we'll take MTK Linkit Smart 7688 Duo as an example). Since Mongodb can easily be acquired, only the installation of Ponte and Freeboard will be introduced in this document. You can also take Node-Red(https://nodered.org/) as a rule machine if it's necessary.
+Ponte, Mongodb, Freeboard, sample code for IoT device(in this project we'll take MTK Linkit Smart 7688 Duo as an example). Since Mongodb can easily be acquired, only the installation of Ponte and Freeboard will be introduced in this document. You can also take [Node-Red](https://nodered.org/) as a rule machine if it's necessary.
 
 ## Installation of Ponte
 
@@ -41,8 +41,18 @@ module.exports = {
 
 Launch it with `$ ponte -c config.js`.
 
-For a further look of Ponte you can visit [Ponte A].(http://www.eclipse.org/ponte/)
+For a further look of Ponte you can visit [Ponte A](http://www.eclipse.org/ponte/).
 
 
-## Installation of Freeboard
 
+## Freeboard
+
+Freeboard is a turn-key HTML-based "engine" for dashboards.
+
+
+## How to Use 
+
+Freeboard can be run entirely from a local hard drive by simply download/clone the repository and open index.html.
+```
+git clone https://github.com/Freeboard/freeboard.git
+```
