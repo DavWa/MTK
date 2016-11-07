@@ -70,8 +70,7 @@ A sample dashboard can be found in the Freeboard folder.
 
 ## Sample code on Iot devices
 
-There are four sample codes that should be run on the device. All of which( blink.py, temperature.py, humidity.py, pressure.py ) can be found in this folder. By downloading and running these codes, the device will send mqtt message to a remote Ponte broker (on 210.6
-5.89.177). Note that the ponte should always be run before the mqtt message is sent.
+In this project, there are four sample codes that can be run on the device. All of which( blink.py, temperature.py, humidity.py, pressure.py ) can be found in this folder. By downloading and running these codes, the device will send mqtt message to a remote Ponte broker (on 210.65.89.177). Note that the ponte should always be run before the mqtt message is sent.
 
 
 ## Steps
