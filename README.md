@@ -61,4 +61,9 @@ Freeboard can be run entirely from a local hard drive by simply download/clone t
 git clone https://github.com/Freeboard/freeboard.git
 ```
 
-(For more look of freeboard you can visit [Freeboard.io](https://freeboard.io/) or [Freeboard/freeboard](https://github.com/Freeboard/freeboard))
+( For more details of freeboard you can visit [Freeboard.io](https://freeboard.io/) or [Freeboard/freeboard](https://github.com/Freeboard/freeboard) )
+
+A sample dashboard can be found in the Freeboard folder.
+
+
+## Sample code on Iot devices
