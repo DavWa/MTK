@@ -89,6 +89,6 @@ $ ponte -c config.js
 ``
 $ python blink.py & python temperature.py & python humidity.py & python pressure.py
 ``
-Note that in this sample we take 210.65.89.177 as the host for the ponte broker. You may want to change the host to your own machine(localhost).
+Note that in this sample we take 210.65.89.177 as the host for the ponte broker. You may want to change the host to your own machine(localhost). If you do change the host machine, make sure you have the mqtt connection part modified in each codes. 
 
 4. Setup the local freeboard (steps can be found in the folder of freeboard)
