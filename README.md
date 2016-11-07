@@ -43,6 +43,8 @@ module.exports = {
 
 Launch it with `$ ponte -c config.js`.
 
+We can then found a database named ponte in mongodb which saved all the data with the tag "retain=True" for ponte broker.
+
 For a further look of Ponte you can visit [Ponte A](http://www.eclipse.org/ponte/) or the [Ponte Project](https://github.com/eclipse/ponte).
 
 
@@ -67,3 +69,22 @@ A sample dashboard can be found in the Freeboard folder.
 
 
 ## Sample code on Iot devices
+
+There are four sample codes that should be run on the device. All of which( blink.py, temperature.py, humidity.py, pressure.py ) can be found in this folder. By downloading and running these codes, the device will send mqtt message to a remote Ponte broker (on 210.6
+5.89.177). Note that the ponte should always be run before the mqtt message is sent.
+
+
+## Steps
+
+Here are the steps to connect all these tools into a local monitor for IoT device:
+
+1. Installed Ponte and MongoDB, and copy the config.js file which is shown above.
+
+2. Run Ponte with the configuration with MongoDB
+```
+$ ponte -c config.js
+```
+
+```
+python blink.py & python temperature.py & python humidity.py & python pressure.py
+```
