@@ -2,7 +2,7 @@
 
 ## The materials We need
 
-Ponte, Mongodb, Freeboard, sample code for IoT device(in this project we'll take MTK Linkit Smart 7688 Duo as an example). Since Mongodb can easily be acquired, only the installation of Ponte and Freeboard will be introduced in this document. You can also take [Node-Red](https://nodered.org/) as a rule machine if it's necessary.
+Ponte, Mongodb, Freeboard, sample code for IoT device(in this project we'll take MTK Linkit Smart 7688 Duo as an example).The installation of Ponte and Freeboard will be introduced in this document (MongoDB cna be downloaded from [here](https://www.mongodb.com/download-center)). You can also take [Node-Red](https://nodered.org/) as a rule machine if it's necessary.
 
 
 
