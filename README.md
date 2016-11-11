@@ -106,7 +106,8 @@ Note that in this sample we take 210.65.89.177 as the host for the ponte broker.
 3. Start the MongoDB client by running the command `$ mongo` under the same directory.
 
 4. 
-```$ use ponte
+```
+$ use ponte
 $ db.retained.find()
 ```
 
