@@ -2,7 +2,7 @@
 
 ## The materials We need
 
-Ponte, Mongodb, Freeboard, sample code for IoT device(in this project we'll take MTK Linkit Smart 7688 Duo as an example).The installation of Ponte and Freeboard will be introduced in this document (MongoDB cna be downloaded from [here](https://www.mongodb.com/download-center)). You can also take [Node-Red](https://nodered.org/) as a rule machine if it's necessary.
+Ponte, Mongodb, Freeboard, sample code for IoT device(in this project we'll take MTK Linkit Smart 7688 Duo as an example).The installation of Ponte and Freeboard will be introduced in this document (MongoDB can be downloaded from [here](https://www.mongodb.com/download-center)). You can also take [Node-Red](https://nodered.org/) as a rule machine if it's necessary.
 
 
 
@@ -80,15 +80,20 @@ Here are the steps to connect all these tools into a local monitor for IoT devic
 
 1. Installed Ponte and MongoDB, and copy the config.js file which is shown above.
 
-2. Run Ponte with the configuration with MongoDB
+2. If you are under Windows system, then open the MongoDB port is necessary. Run command `$ mongod` under the directory where you have installed your mongoDB.
+
+3. Run Ponte with the configuration with MongoDB
 `
 $ ponte -c config.js
 `
 
-3. Start to send mqtt message to Ponte broker by executing the following python code:
+4. Start to send mqtt message to Ponte broker by executing the following python code:
 ``
 $ python blink.py & python temperature.py & python humidity.py & python pressure.py
 ``
 Note that in this sample we take 210.65.89.177 as the host for the ponte broker. You may want to change the host to your own machine(localhost). If you do change the host machine, make sure you have the mqtt connection part modified in each codes. 
 
-4. Setup the local freeboard (steps can be found in the folder of freeboard)
+5. Setup the local freeboard (steps can be found in the folder of freeboard)
+
+
+## Check the 
