@@ -79,8 +79,8 @@ Here are the steps to connect all these tools into a local monitor for IoT devic
 
 
 1. Installed Ponte and MongoDB, and copy the config.js file which is shown above.
-
-2. If you are under Windows system, then open the MongoDB port is necessary. Run command `$ mongod` under the directory where you have installed your mongoDB.
+''
+2. If you are under Windows system, then open the MongoDB port is necessary. Run command `$ mongod` under the directory where you have installed your mongoDB. Mostly the directory will be default as C:\Program Files\MongoDB\Server\3.2\.
 
 3. Run Ponte with the configuration with MongoDB
 `
@@ -96,4 +96,17 @@ Note that in this sample we take 210.65.89.177 as the host for the ponte broker.
 5. Setup the local freeboard (steps can be found in the folder of freeboard)
 
 
-## Check the 
+## Check the Persistence Data
+(The following instructions are for user under Windows system)
+
+1. Move to the directory where you have installed MongoDB (mostly it will be C:\Program Files\MongoDB\Server\3.2\).
+
+2. Start the MongoDB by running the command `$ mongod`.
+
+3. Start the MongoDB client by running the command `$ mongo` under the same directory.
+
+4. 
+`$ use ponte
+$ db.retained.find()
+`
+
