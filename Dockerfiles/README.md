@@ -14,9 +14,9 @@ $ sudo docker run -p 1883:1883 -p 3000:3000 -p 5683:5683 feverra/ponte
 
 Freeboard:
 ```
-$ sudo docker run -p 3000:3000 alexiasa/freeboard
+$ sudo docker run -p 2999:3000 alexiasa/freeboard
 ```
-(The freeboard will be on the port 3000 on the localhost)
+Note that the port on the localhost may already be used by other applications (e.g. by Ponte), we may need to bind the freeboard container port to another local system port(2999, for instance, in this example. The freeboard will then be on port 2999 on the localhost))
 
 
 Also, we can link a container with another by the option `--link`, so Ponte can be directly linked to MongoDB
