@@ -30,3 +30,11 @@ sudo docker run --name <name-of-db> -d mongo
 ```
 
 ## Where to Store the Data?
+
+We can create a directory for Mongo's data storage 
+1. Create a data directory on a suitable volume on your host system, e.g. `/my/own/datadir`.
+2. Start your `mongo` container like this:
+```
+$ docker run --name some-mongo -v /my/own/datadir:/data/db -d mongo:tag
+```
+The `-v /my/own/datadir:/data/db` part of the command mounts the `/my/own/datadir` directory from the underlying host system as `/data/db` inside the container, where MongoDB by default will write its data files.
