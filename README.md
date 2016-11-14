@@ -8,7 +8,7 @@ Ponte, Mongodb, Freeboard, sample code for IoT device(in this project we'll take
 
 [Ponte Project](https://github.com/eclipse/ponte), [Freeboard/freeboard](https://github.com/Freeboard/freeboard), [MongoDB](https://www.mongodb.com/download-center), [Node-Red](https://nodered.org/).
 
-The docker image files can be found under this repository as well. Belows are the weblink to the docker files on docker hub.
+The docker images size are too large to be uploaded on github. Here's another [download link]() for all the docker images. Belows are the weblink to the docker files on docker hub.
 
 [Ponte](https://hub.docker.com/r/feverra/ponte/), [MongoDB](https://hub.docker.com/_/mongo/), [Freeboard](https://hub.docker.com/r/alexiasa/freeboard/)
 
