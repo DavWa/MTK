@@ -28,6 +28,11 @@ MongoDB can be run on docker by this command:
 ```
 sudo docker run --name <name-of-db> -d mongo
 ```
+This image includes `EXPOSE 27017` (the mongo port), so if using the mongo client we should bind the container port to the local one as well
+
+```
+sudo docker run --name <name-of-db> -p 27017:27017 -d mongo
+```
 
 ## Where to Store the Data?
 
