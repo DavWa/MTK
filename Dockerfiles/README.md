@@ -16,7 +16,7 @@ Freeboard:
 ```
 $ sudo docker run -p 2999:3000 alexiasa/freeboard
 ```
-Note that the port on the localhost may already be used by other applications (e.g. by Ponte), we may need to bind the freeboard container port to another local system port(2999, for instance, in this example. The freeboard will then be on port 2999 on the localhost))
+Note that the port on the localhost may already be used by other applications (e.g. by Ponte), we may need to bind the freeboard container port to another local system port (2999, for instance, in this example. The freeboard will then be on port 2999 on the localhost).
 
 
 Also, we can link a container with another by the option `--link`, so Ponte can be directly linked to MongoDB
