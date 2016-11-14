@@ -25,15 +25,20 @@ Also, we can link a container with another by the option `--link`, so Ponte can 
 
 MongoDB can be run on docker by this command:
 ```
-sudo docker run --name <name-of-db> -d mongo
+$ sudo docker run --name <name-of-db> -d mongo
 ```
 This image includes `EXPOSE 27017` (the mongo port), so if using the mongo client we should bind the container port to the local one as well
 
 ```
-sudo docker run --name <name-of-db> -p 27017:27017 -d mongo
+$ sudo docker run --name <name-of-db> -p 27017:27017 -d mongo
 ```
 
-## 
+## Run Ponte with MongoDB
+
+As mentioned previously, we could use the option `--link` to link two or more containers. In this case, after we've already run MongoDB, we could use the following command for Ponte:
+```
+$ sudo docker run --link <name-of-fb>:mongo -p 1883:1883 -p 3000:3000 -p 5683:5683 -d feverra/ponte 
+```
 
 
 ## Where to Store the Data?
