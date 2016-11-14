@@ -20,7 +20,6 @@ $ sudo docker run -p 3000:3000 alexiasa/freeboard
 
 
 Also, we can link a container with another by the option `--link`, so Ponte can be directly linked to MongoDB
-(but I'm still not able to set a configuration to an existed docker image)
 
 ## MongoDB
 
@@ -33,6 +32,9 @@ This image includes `EXPOSE 27017` (the mongo port), so if using the mongo clien
 ```
 sudo docker run --name <name-of-db> -p 27017:27017 -d mongo
 ```
+
+## 
+
 
 ## Where to Store the Data?
 
