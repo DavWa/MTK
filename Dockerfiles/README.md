@@ -1,4 +1,4 @@
-## How to Run the Dockerfiles
+## How to Run the Docker images
 
 First of all, download all the docker files and load it to your docker images base by the command below.
 ```
