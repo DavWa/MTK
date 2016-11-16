@@ -56,7 +56,7 @@ able to do so. Thus, we need to build a docker image for our own.
 $ sudo docker build -t <the_image name> .
 ```
 
-After the docker image is built, you can run it on docker in the same way as you run Ponte.
+After the docker image is built, you can run it on docker in the same way as you run Ponte. This Ponte image will be able to keep data persistence with the help of MongoDB and all the persisted data could be found in Mongo.
 
 ## Where to Store the Data?
 
