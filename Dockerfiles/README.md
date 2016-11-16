@@ -40,6 +40,23 @@ As mentioned previously, we could use the option `--link` to link two or more co
 $ sudo docker run --link <name-of-fb>:mongo -p 1883:1883 -p 3000:3000 -p 5683:5683 -d feverra/ponte 
 ```
 
+## Create a docker image for Ponte
+
+Although we can run Ponte and MongoDB simultaneously by following the instructions above, we can't make MongoDB backup the data still. This is because we haven't set the configuration for Ponte to make it "run on MongoDB". However, the existing Ponte docker images is not 
+able to do so. Thus, we need to build a docker image for our own.
+
+1. Download the Dockerfile and config.js in this folder.
+
+2. Check the IP address of your machine and modify the content of config.js
+
+3. Put this two file in a same folder.
+
+4. Move to the folder and build your own docker image wtith following command
+```
+$ sudo docker build -t <the_image name> .
+```
+
+After the docker image is built, you can run it on docker in the same way as you run Ponte.
 
 ## Where to Store the Data?
 
