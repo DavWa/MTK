@@ -4,7 +4,13 @@ First of all, download all the docker files and load it to your docker images ba
 ```
 $ sudo docker load --input <filename>
 ```
-
+Or you can pull a specific docker image from docker hub.
+```
+$ sudo docker pull feverra/ponte
+$ sudo docker pull mongo
+$ sudo docker pull alexiasa freeboard
+$ sudo docker pull nodered/node-red-docker
+``` 
 For Ponte and Freeboard, binding the container port to the localhost is necessary. So we should run the images in this way:
 
 Ponte:
