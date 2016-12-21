@@ -68,4 +68,5 @@ sh start.sh
 ## Node-red and Ponte
 We can receive a mqtt message from either Ponte or Node-red
 
-Here's a introduction of Node-red application with MQTT: https://www.rs-online.com/designspark/building-distributed-node-red-applications-with-mqtt
+Here's a introduction of Node-red application with MQTT:
+https://www.rs-online.com/designspark/building-distributed-node-red-applications-with-mqtt
