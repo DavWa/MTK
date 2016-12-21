@@ -71,4 +71,4 @@ We can receive a mqtt message from either Ponte or Node-red
 Here's a introduction of Node-red application with MQTT:
 https://www.rs-online.com/designspark/building-distributed-node-red-applications-with-mqtt
 
-![b](https://raw.github.com/DavWa/MTK/master/Dockerfiles/nodered.png)
+![b](https://raw.github.com/DavWa/MTK/master/Dockerfiles/nodered.PNG)
