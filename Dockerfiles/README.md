@@ -60,3 +60,5 @@ $ mongo
 $ use ponte
 $ db.retained.find()
 ```
+## Start everything
+`start.sh` is the shell script to simply start everything.
