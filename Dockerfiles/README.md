@@ -66,9 +66,11 @@ $ db.retained.find()
 sh start.sh
 ```
 ## Node-red and Ponte
-We can receive a mqtt message from either Ponte or Node-red
+We can receive a mqtt message from Node-red with the help of Ponte or MQTT modules.
 
 Here's a introduction of Node-red application with MQTT:
 https://www.rs-online.com/designspark/building-distributed-node-red-applications-with-mqtt
 
 ![b](https://raw.github.com/DavWa/MTK/master/Dockerfiles/nodered.PNG)
+
+Note that there should be a "connected" if we have successfully connected a MQTT broker. 
